@@ -1,0 +1,22 @@
+{
+  "name": "script-jpm",
+  "version": "2.0",
+  "description": "script jpm for termux",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["script", "jpm"],
+  "author": "azhari creative",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "baileys": "^7.0.0-rc.9",
+    "cli-color": "^2.0.4",
+    "mime-types": "^2.1.35",
+    "pino": "^9.3.2",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
